@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+.green-text
+{
+    color: green
+}
+
+
+
+#blue-text
+{
+    color: blue
+}*/
+
+
+
+body
+{
+    background: #809fd1 url('https://i0.wp.com/lenin.shm.ru/wp-content/uploads/2024/04/fml-k-43_1-scaled.jpg?fit=2560%2C1288&ssl=1') no-repeat center top;
+    height: 120vh;
+    background-size: cover; /* растянуть под экран */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* вот тут закрепляем фон */
+    background-position: center;
+    font-family: 'Oswald';
+}
+
+
+
+h1
+{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+
+h2
+{
+    font-size: 1.75em;
+}
+
+
+
+img {
+  border-radius: 25px;
+}
+
+
+
+.hatblock
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    background: #b80220;
+    line-height: 80px;
+}
+
+
+
+.block
+{
+    background: #84a9b3;
+    height: auto;
+    width: 95%;
+    border: 2px solid black;
+    border-radius: 25px;
+    opacity: 0.9;
+    margin: 20px 50px;
+    padding: 12px;
+    list-style-position: inside;
+    cursor:pointer;
+}
+
+
+
+.button {
+    display: block;               /* чтобы было как див */
+    background: #84a9b3;
+    height: auto;
+    width: 95%;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 20px 50px 20px 50px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;        /* убрать подчёркивание */
+    color: black;                 /* цвет текста */
+    transition: all 0.3s ease;    /* плавная анимация */
+}
+
+.button:hover {
+    background: #6a8f99;
+    transform: scale(1.008);
+}
+
+
+
+.bottomBB {          /* более «сильный» селектор */
+    opacity: 0.0;
+    display: block;
+    height: 0px;         /* чтобы было как див */
+    background: #84a9b3;
+    width: 95%;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 20px 50px 20px 50px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;        /* убрать подчёркивание */
+    color: black;                 /* цвет текста */
+}
+
+
+
+/*.main-link
+{
+    color:blue;
+    text-decoration:none;
+}
+
+
+
+.main-link:hover
+{
+    color:red;
+    text-decoration:none;
+    cursor:pointer;
+}*/
